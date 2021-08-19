@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="coffee_shop">Coffee  Shop</string>
+    <string name="text2">Test Your Best Coffee</string>
+    <string name="login_now">LogIn Now</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="create_account">Create Account</string>
+    <string name="about_us">About Us</string>
+    <string name="click_for_order">Click To Order</string>
+    <string-array name="planets_array">
+        <item>Coffee List</item>
+        <item>Coffee with tea 25 taka</item>
+        <item>Black Coffee 25 taka</item>
+        <item>Filter Coffee 25 taka</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:weightSum="5"
+    android:background="@drawable/coffee1"
+    tools:context=".ShowActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.8"
+        android:orientation="vertical"
+        android:layout_margin="40dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/textcolor"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:text="Thanks For Ordering !!"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@drawable/textcolor"
+            android:id="@+id/coffeItem"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@drawable/textcolor"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/result"/>
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/textcolor"
+        android:onClick="back"
+        android:textColor="@color/white"
+        android:text="Back Log In page" />
+
+</LinearLayout>
